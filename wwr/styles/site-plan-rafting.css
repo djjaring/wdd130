@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:ital,wght@0,300;0,400;1,300&family=Rubik+Mono+One&display=swap');
 :root {
     --primary-color: #626a6f;
     --secondary-color: #edf0f4;
     --accent-color: #e9eaf1;
     --additional-accent-color: #f39c12;
-    --heading-font: 'Roboto', sans-serif; 
+    --heading-font: 'Agbalumo', sans-serif; 
     --paragraph-font: 'Arial', sans-serif; 
     --navigation-bg-color: #333;
     --navigation-link-color: #fff;
@@ -12,20 +12,21 @@
     --navigation-hover-bg-color: #555;
 }
 body {
-    font-family: 'Roboto', sans-serif; /* Use the imported font */
+    font-family: 'Roboto', sans-serif; 
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--paragraph-font), 'Agbalumo', sans-serif;
     color: #185bce;
-    /* Add additional styling if needed */
+    font-weight: bold;
+    
 }
 header {
     background-color: var(--accent-color);
-    color: #212427; 
+    color: #3b5875; 
     padding: 20px;
 }
 p {
