@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:ital,wght@0,300;0,400;1,300&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,300;0,400;1,300&family=Rubik+Mono+One&display=swap');
 :root {
     --primary-color: #626a6f;
     --secondary-color: #edf0f4;
-    --accent-color: #e9eaf1;
+    --accent1-color: #e9eaf1;
+    --accent2-color: #32232a;
     --additional-accent-color: #f39c12;
     --heading-font: 'Agbalumo', sans-serif; 
     --paragraph-font: 'Arial', sans-serif; 
@@ -58,6 +59,6 @@ nav a:hover {
 }
 header img {
     width: 50%; 
-    height: 20%;
+    height: auto;
     
 }
