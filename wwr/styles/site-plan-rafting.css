@@ -61,3 +61,18 @@ header img {
     height: auto;
     
 }
+.primary-color {
+    background-color:#191D32 ;
+}
+
+.secondary-color {
+    background-color: #282F44;
+}
+
+.accent1-color {
+    background-color: #453A49;
+}
+
+.accent2-color {
+    background-color: #6D3B47;
+}
