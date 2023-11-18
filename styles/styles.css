@@ -47,7 +47,8 @@ aside img{
 }
 aside h2 {
     position: absolute;
-    
+   
+
 }
 
 footer{
@@ -60,18 +61,17 @@ footer{
 }
 /* class selector */
 .box {
-    /* Basic box model properties */
-    margin: 1rem; /* Set margin to 1rem */
-    border: 1px solid rgba(0, 0, 0,.1); /* Example border style */
+   
+    margin: 1rem; 
+    border: 1px solid rgba(0, 0, 0,.1); 
   
-    /* Set padding to 1rem and match root font size */
+    
     padding: 1rem;
   
-    /* Custom background-color and color */
+    
     background-color: #ddd;
-    color: #000; /* Dark grey color */
+    color: #000; 
   
-    /* Remove duplication of properties from aside */
   }
 
   main img{
