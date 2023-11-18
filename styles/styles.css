@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
 nav{
     background-color: steelblue;
     padding: 10px;
@@ -18,24 +26,28 @@ image{
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-p { padding: 10px;}
+p { padding: 10px;
+    margin: 1rem;
+
+}
 
 main{
     max-width: 840px;
 }
-aside{
-    width:20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    background-color: #eee;
-    color:#333;
-    text-align:center;    
-}
+aside {
+    width: 20em;
+    text-align: center;
+    position:relative;
+    /* Any other existing properties for the aside */
+  }
 
 aside img{
     width: 200px;
     height: auto;
+}
+aside h2 {
+    position: absolute;
+    
 }
 
 footer{
@@ -45,4 +57,37 @@ footer{
 
 
 
+}
+/* class selector */
+.box {
+    /* Basic box model properties */
+    margin: 1rem; /* Set margin to 1rem */
+    border: 1px solid rgba(0, 0, 0,.1); /* Example border style */
+  
+    /* Set padding to 1rem and match root font size */
+    padding: 1rem;
+  
+    /* Custom background-color and color */
+    background-color: #ddd;
+    color: #000; /* Dark grey color */
+  
+    /* Remove duplication of properties from aside */
+  }
+
+  main img{
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue ;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
+  }
+  body {
+    font-size: 20 px;
+    font-family: Bad script, Roboto, sans-serif;
+  }
+
+.indent {
+    padding-left: 2rem;
 }
