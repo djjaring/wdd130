@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --primary-color: #191D32;
+    --secondary-color: #3a54a3;
+    --accent1-color: #3c3a49;
+    --accent2-color: #6D3B47;
+}
+
+/* Apply styles to headings and paragraphs */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Agbalumo', sans-serif; /* Use the selected font for headings */
+    color: var(--primary-color); /* Set color for headings */
+    /* Add any other heading styles */
+}
+
+p {
+    color: var(--secondary-color); /* Set color for paragraphs */
+    /* Add other paragraph styles */
+}
+
+/* Remove underlines from social media links */
+.sociallinks a {
+    text-decoration: none;
+}
+
+/* Limit entire width of the page */
+body {
+    max-width: 1200px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the content */
+}
+
+/* Style the Hero Container using Position Absolute */
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Style the article inside hero */
+.hero article {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Set background color with opacity */
+}
+
+.hero article img {
+    float: right;
+    width: 100px; /* Adjust the width of the image */
+    height: auto;
+    margin-left: 20px;
+}
+
+.box{
+    border: 2px solid #ccc; /* Border style */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line if images exceed the width */
+}
+
+.image-container img {
+    flex: 1;
+    margin: 5px; /* Optional: Add margin between images */
+    max-width: 100%; /* Ensure images don't exceed their container */
+    
+}
+p {
+    border: 3px;
+}
