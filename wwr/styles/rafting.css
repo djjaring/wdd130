@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+
 :root {
     --primary-color: #191D32;
     --secondary-color: #3a54a3;
@@ -12,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roborto' , Bebas Neue;
+    font-family: 'Roboto', 'Bebas Neue', sans-serif;
     color: var(--primary-color);
     /* Add other heading styles */
 }
@@ -20,21 +21,20 @@ h6 {
 p {
     color: var(--secondary-color);
     padding: 25px;
-    font-size: 16px; /* Add a specific font size */
+    font-size: 16px;
 }
 
-/* Remove underlines from social media links */
 .sociallinks a {
     text-decoration: none;
 }
 
-/* Limit entire width of the page */
+
 body {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Style the Hero Container using Position Absolute */
+
 .hero {
     position: relative;
     overflow: hidden;
@@ -51,39 +51,37 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* Add other h1 styles */
+
 }
 
-/* Style the article inside hero */
+
 .hero article {
     position: absolute;
     top: 20%;
     left: 10%;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity */
-    border-radius: 8px; /* Add border-radius for rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px; 
+    
 }
 
 .hero article img {
     float: right;
-    width: 100px; /* Adjust the width of the image */
-    height: auto;
+    width: 100px; 
     margin-left: 20px;
-    margin-bottom: 10px; /* Corrected typo in margin property */
-    /* Add other styles for the image */
+    margin-bottom: 10px; 
+    
 }
 
-/* Clear float to ensure proper layout */
 .hero article p {
     overflow: hidden;
 }
 
-/* Styles for regular articles */
+
 article {
     width: 20em;
     text-align: center;
-    position: relative; /* Changed position value */
+    position: relative; 
 }
 
 article img {
