@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
 :root {
     --primary-color: #191D32;
     --secondary-color: #3a54a3;
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue' , Roboto;
     color: var(--primary-color);
     /* Add other heading styles */
 }
