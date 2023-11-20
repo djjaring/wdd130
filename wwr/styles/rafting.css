@@ -78,14 +78,5 @@ body {
 }
 
 
-article {
-    width: 20em;
-    text-align: center;
-    position: relative; 
-}
 
-article img {
-    width: 100%;
-    height: auto;
-}
 
