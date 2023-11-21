@@ -71,9 +71,9 @@ aside h2 {
 }
 .grid {
     display: grid;
-    grid-template-columns: 20rem 1fr; /* Defining columns: aside and main */
+    grid-template-columns: 20rem 1fr; 
     align-items: center;
-    gap: 20px; /* Adding gap between grid items */
+    gap: 20px; 
   }
 
 
