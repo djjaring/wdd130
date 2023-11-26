@@ -15,7 +15,7 @@ h5,
 h6 {
     font-family: 'Roboto', 'Bebas Neue', sans-serif;
     color: var(--primary-color);
-    /* Add other heading styles */
+
 }
 
 p {
@@ -92,7 +92,7 @@ header {
   }
   
   nav {
-    display: flex; /* Using CSS Flex for horizontal layout */
+    display: flex; 
     gap: 20px;
   }
   
@@ -106,12 +106,12 @@ header {
     font-size: 20px;
   }
   
-  /* Main CSS */
+ 
   main {
     padding: 20px;
   }
   
-  /* Footer CSS */
+ 
   footer {
     background-color: var(--accent2-color);
     color: white;
