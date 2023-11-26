@@ -20,7 +20,7 @@ nav a{
     padding: 0.5rem;
     text-decoration: none;
     font-weight: 700;
-    
+    font-size: 40px;
 }
 h1 {
     color: steelblue;
@@ -111,4 +111,5 @@ footer,
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #ddd;
     color: #000;
+    text-align: center;
   }

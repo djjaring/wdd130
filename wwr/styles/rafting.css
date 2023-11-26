@@ -19,7 +19,7 @@ h6 {
 }
 
 p {
-    color: var(--secondary-color);
+    color: black;
     padding: 25px;
     font-size: 16px;
 }
@@ -38,6 +38,7 @@ body {
 .hero {
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 .hero img {
@@ -48,9 +49,10 @@ body {
 
 .hero h1 {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: aliceblue;
 
 }
 
@@ -77,6 +79,135 @@ body {
     overflow: hidden;
 }
 
+header {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Using CSS Grid for horizontal layout */
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(119, 119, 242);
+  }
+  
+  header img {
+    max-width: 100px;
+  }
+  
+  nav {
+    display: flex; /* Using CSS Flex for horizontal layout */
+    gap: 20px;
+  }
+  
+  nav a {
+    color:white;
+    display:block ;
+    
+    padding: 5rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  /* Main CSS */
+  main {
+    padding: 20px;
+  }
+  
+  /* Footer CSS */
+  footer {
+    background-color: var(--accent2-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sociallinks {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .sociallinks img {
+    width: 30px;
+    height: auto;
+  }
 
 
 
+  .box1 {
+   
+    margin: 1rem; 
+      border: 1px solid rgba(0, 0, 0, .1); 
+      padding: 2rem;
+      background-color: #ddd;
+      color: #000; 
+      text-align: center;
+  
+  }
+  .box1 img{
+    width: 500px;
+      height: auto;
+      margin-bottom: 20px
+
+
+  
+}
+
+
+h3 {
+  margin-top: 0; 
+}
+.container {
+   
+  position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 2rem;
+      border: 1px solid rgba(0, 0, 0, .1);
+      padding: 1rem;
+      background-color: #ddd;
+      color: #000;
+      max-width: 80%;
+      padding-left: 1rem;
+    
+  
+  }
+  .container img{
+    width: 130px;
+    height: auto;
+    float: right;
+   margin: 1rem;
+
+
+  
+}
+
+footer {
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; 
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 8px;
+  text-align: left;
+  margin: 1rem;
+}
+figure {
+ 
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.Adventure img {
+  display: block;
+  width: 500px ;
+  height: auto;
+
+}
