@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+
+.Question  p {
+    text-align: left;
+    line-height: 1;
+    
+
+}
+.Question textarea {
+    text-align: left;
+    
+}
+
+div {
+    margin: 20px;
+    border: 1PX;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML and CSS Quiz</title>
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <div class="container">
+  <h1>HTML and CSS Quiz</h1>
+  <form action="#" method="post">
+    <div class="Name1">
+      <label for="q1">1. First name:</label>
+      <input type="text" id="q1" name="q1" required>
+    </div>
+    <div class="Name2">
+        <label for="q1">2. Last name:</label>
+      <input type="text" id="q1" name="q1"  required>
+
+    </div>
+    <div class="Question">
+        <p><label for="q2">3. Short answer Question:</label></p>
+      <textarea rows="3" cols="50" wrap="hard"></textarea>
+    </div>
+    <div>
+      <label for="q3">4. Choose an option:</label>
+      <select id="q3" name="q3" required>
+        <option value="" selected disabled>Choose One ...</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="htmlcss">HTML and CSS</option>
+      </select>
+    </div>
+    <div>
+      <label for="q4">5. Integer answer:</label>
+      <input type="number" id="q4" name="q4" required>
+    </div>
+    <div>
+      <button type="submit">Submit Quiz</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
