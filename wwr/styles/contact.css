@@ -35,50 +35,6 @@ body {
 }
 
 
-.hero {
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: aliceblue;
-
-}
-
-
-.hero article {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); 
-    border-radius: 8px; 
-    
-}
-
-.hero article img {
-    float: right;
-    width: 100px; 
-    margin-left: 20px;
-    margin-bottom: 10px; 
-    
-}
-
-.hero article p {
-    overflow: hidden;
-}
-
 header {
     display: grid;
     grid-template-columns: auto 1fr; /* Using CSS Grid for horizontal layout */
@@ -205,44 +161,62 @@ button[type="submit"]:hover {
 }
 
 
-.content-box {
-  border: 1px solid #ccc; /* Border style */
-  padding: 20px; /* Padding inside the box */
-  margin: 10px; /* Margin around the box */
-  border-radius: 5px; 
-  width: 400px; ;
-  display: block;
 
-}
 figcaption {
   background-color: #222;
   color: #fff;
   font: italic smaller sans-serif;
-  padding: 8px;
+  padding: 5px;
   text-align: left;
-  margin: 1rem;
+  margin: -.1rem;
+  font-size: 1.5em;
 }
 figure {
  
   display: flex;
   flex-flow: column;
   padding: 5px;
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
 }
 figure img{
-  display: block;
+  display: flex;
   width: 300px;
   height: auto;
+  margin: 1rem;
+  
 }
 
 .employee-profiles {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 2fr);
 }
 
 .employee-profiles h2 {
   grid-column: 1/6;
 text-align: center;
+
+}
+.code-box {
+  border: 1px solid #ccc;
+  padding: 100px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.content-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
 
 }
