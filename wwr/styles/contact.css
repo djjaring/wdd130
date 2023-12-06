@@ -40,7 +40,7 @@ header {
     grid-template-columns: auto 1fr; /* Using CSS Grid for horizontal layout */
     align-items: center;
     padding: 20px;
-    background-color: rgb(119, 119, 242);
+    background-color:  #e7a5a5;
   }
   
   header img {
@@ -163,13 +163,13 @@ button[type="submit"]:hover {
 
 
 figcaption {
-  background-color: #222;
-  color: #fff;
+  background-color: #e7a5a5;
+  color: #8d8989;
   font: italic smaller sans-serif;
   padding: 5px;
   text-align: left;
-  margin: -.1rem;
-  font-size: 1.5em;
+  margin: 1rem;
+  font-size: 1em;
 }
 figure {
  
