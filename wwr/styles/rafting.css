@@ -35,56 +35,12 @@ body {
 }
 
 
-.hero {
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: aliceblue;
-
-}
-
-
-.hero article {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); 
-    border-radius: 8px; 
-    
-}
-
-.hero article img {
-    float: right;
-    width: 100px; 
-    margin-left: 20px;
-    margin-bottom: 10px; 
-    
-}
-
-.hero article p {
-    overflow: hidden;
-}
-
 header {
     display: grid;
     grid-template-columns: auto 1fr; /* Using CSS Grid for horizontal layout */
     align-items: center;
     padding: 20px;
-    background-color: rgb(119, 119, 242);
+    background-color:  #e7a5a5;
   }
   
   header img {
@@ -137,54 +93,18 @@ header {
 
 
 
-  .box1 {
-   
-    margin: 1rem; 
-      border: 1px solid rgba(0, 0, 0, .1); 
-      padding: 2rem;
-      background-color: #ddd;
-      color: #000; 
-      text-align: center;
+ 
   
-  }
-  .box1 img{
-    width: 500px;
-      height: auto;
-      margin-bottom: 20px
 
-
-  
-}
 
 
 h2 {
   margin-top: 0; 
 }
-.container {
-   
-  position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      margin: 2rem;
-      border: 1px solid rgba(0, 0, 0, .1);
-      padding: 1rem;
-      background-color: #ddd;
-      color: #000;
-      max-width: 80%;
-      padding-left: 1rem;
-    
-  
-  }
-  .container img{
-    width: 130px;
-    height: auto;
-    float: right;
-   margin: 1rem;
 
 
   
-}
+
 
 footer {
   
@@ -192,43 +112,111 @@ footer {
   justify-content: space-between; 
 }
 
-figcaption {
-  background-color: #222;
-  color: #fff;
-  font: italic smaller sans-serif;
+
+
+
+footer p {
+  margin-left: 20%;
+}
+
+
+.contact-form {
+  margin: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
   padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+figcaption {
+  background-color: #e7a5a5;
+  color: #8d8989;
+  font: italic smaller sans-serif;
+  padding: 5px;
   text-align: left;
   margin: 1rem;
+  font-size: 1em;
 }
 figure {
  
   display: flex;
   flex-flow: column;
   padding: 5px;
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
 }
-
-
-.Adventure img{
-  display: block;
-  width: 150px;
+figure img{
+  display: flex;
+  width: 300px;
   height: auto;
+  margin: 1rem;
+  
 }
 
-.Adventure {
-display: grid;
-grid-template-columns: repeat(5,1fr);
-
+.employee-profiles {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
 }
 
-.Adventure h2 {
-grid-column: 1/6;
+.employee-profiles h2 {
+  grid-column: 1/6;
 text-align: center;
 
 }
+.code-box {
+  border: 1px solid #ccc;
+  padding: 100px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
 
+.form-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.content-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
 
-footer p {
-  margin-left: 20%;
 }
