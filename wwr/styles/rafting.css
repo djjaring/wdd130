@@ -40,7 +40,7 @@ header {
     grid-template-columns: auto 1fr; /* Using CSS Grid for horizontal layout */
     align-items: center;
     padding: 20px;
-    background-color:  #e7a5a5;
+    background-color:  rgb(119, 119, 242);
   }
   
   header img {
@@ -163,7 +163,7 @@ button[type="submit"]:hover {
 
 
 figcaption {
-  background-color: #e7a5a5;
+  background-color: #f8f5f5;
   color: #8d8989;
   font: italic smaller sans-serif;
   padding: 5px;
@@ -202,7 +202,7 @@ text-align: center;
   padding: 100px;
   margin: 20px;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #f3f1f1;
 }
 
 .form-box {
