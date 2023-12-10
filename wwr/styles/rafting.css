@@ -89,6 +89,7 @@ header {
     width: 30px;
     height: auto;
     margin: 0 5px;
+    
   }
 
 
@@ -233,4 +234,83 @@ button[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+}
+
+.triptable {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 400px;
+
+}
+.trip2 h1 {
+  font-size: 30px;
+  color: #151313;
+  text-transform: uppercase;
+  /* Add any other styles you prefer */
+}
+.trip2 p {
+  font-size: 23px;
+  line-height: 2;
+  color: #0f0f0f;
+  /* Add any other styles you prefer */
+}
+.trip h1 {
+  font-size: 30px;
+  color: #151313;
+  text-transform: uppercase;
+  /* Add any other styles you prefer */
+}
+.trip p {
+  font-size: 23px;
+  line-height: 2;
+  color: #0f0f0f;
+  /* Add any other styles you prefer */
+}
+
+.trip3 h1 {
+  font-size: 30px;
+  color: #151313;
+  text-transform: uppercase;
+  /* Add any other styles you prefer */
+}
+.trip3 p {
+  font-size: 23px;
+  line-height: 2;
+  color: #0f0f0f;
+  /* Add any other styles you prefer */
+}
+.Mapandan {
+  max-width: 1800px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.harap {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  max-width: 1900px;
+  
+}
+
+.harap {
+  font-size: 23px;
+  line-height: 2;
+  color: #0f0f0f;
+  text-align: left;
+}
+
+.triptable th,
+.triptable td {
+    padding: 8px 12px;
+    font-size: large; 
+    
 }
