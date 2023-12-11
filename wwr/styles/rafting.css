@@ -129,9 +129,10 @@ footer p {
   margin-bottom: 15px;
 }
 
-label {
+.form-group label {
   display: block;
   font-weight: bold;
+  text-align: left;
 }
 
 input[type="text"],
@@ -141,6 +142,7 @@ textarea {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  
 }
 
 input[type="checkbox"] {
@@ -313,4 +315,170 @@ button[type="submit"] {
     padding: 8px 12px;
     font-size: large; 
     
+}
+.hero-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.newsletter-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.call-to-action {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  
+}
+
+.grid-item img {
+  width: 100%;
+  height: 800px;
+}
+.gridy {
+  border: 1px solid #ccc;
+        padding: 20px;
+        background-color: #f4f4f4;  
+}
+.hero-section .pambungad {
+  position: relative;
+  width: 100%;
+  max-width: 100%; /* Ensures the image doesn't exceed its container */
+  overflow: hidden; /* Hides any part of the image that exceeds its container */
+}
+
+
+
+.hero-section .pambungad img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-section .pambungad h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Adjust the color for better visibility */
+  text-align: center;
+  font-size: 3em; /* Adjust the font size as needed */
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+  opacity: 0; /* Initially invisible */
+  transition: opacity 1s ease; /* Smooth transition effect */
+}
+.hero-section .overlay h1 {
+  color: white; /* Text color for the h1 */
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  opacity: 0; /* Initially invisible */
+  transition: opacity 0.5s ease; /* Smooth transition effect */
+  margin-top: 200px;
+}
+.hero-section .pambungad:hover .overlay {
+  opacity: 1; /* Fade in overlay on hover */
+}
+
+.hero-section .pambungad:hover .overlay h1 {
+  opacity: 1; /* Fade in h1 text on hover */
+}
+
+.hero-section .overlay p {
+  color: white;
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    margin-bottom: 5px;
+    font-size: 25px;
+    
+
+
+}
+.hero-section .pambungad:hover .overlay p {
+  opacity: 1; /* Fade in h1 text on hover */
+}
+
+
+.gta {
+  background-color: lightgrey;
+  border:15px solid green;;
+    padding: 50px;
+    margin: 20px;
+}
+.gta p{
+  font-size: 30px ;
+}
+
+.free {
+  background-color: lightgrey;
+  border:10px solid green;;
+    padding: 50px;
+    margin: 20px;
+}
+
+.harap {
+  background-color: lightgrey;
+  border:10px solid green;;
+    padding: 50px;
+    margin: 20px;
+}
+.triptable {
+  background-color: lightgrey;
+  border:10px solid green;;
+    padding: 50px;
+    margin: 20px;
+}
+.Mapandan {
+  background-color: lightgrey;
+  border:10px solid green;;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+.form-group1 {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group1, label {
+  text-align: right;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 8px;
+}
+
+.grid-item p {
+  font-size: 20px;
+  text-align: left;
+  color: #000;
+}
+.grid-item h2 {
+  font-size: 30px;
+  text-align: center;
 }
