@@ -421,7 +421,7 @@ button[type="submit"] {
 
 .gta {
   background-color: lightgrey;
-  border:15px solid green;;
+  border:10px solid green;;
     padding: 50px;
     margin: 20px;
 }
@@ -491,7 +491,9 @@ input[type="email"] {
 .btn {
   font-size: 20px; /* Adjust the font size as needed */
   text-align: center;
-  display: block; /* Ensures the button takes up the full width */
   padding: 0%;
   margin: 0%;
+}
+.harap, li {
+  text-align: center;
 }
