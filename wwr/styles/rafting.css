@@ -486,7 +486,12 @@ input[type="email"] {
   font-size: 29px;
   text-align: center;
 }
+
+
 .btn {
-  font-size: 25px;
+  font-size: 20px; /* Adjust the font size as needed */
   text-align: center;
+  display: block; /* Ensures the button takes up the full width */
+  padding: 0%;
+  margin: 0%;
 }
